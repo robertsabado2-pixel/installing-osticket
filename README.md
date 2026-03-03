@@ -100,7 +100,8 @@ In this lab, I:
 - Created a new database for osTicket  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="MySQL and HeidiSQL Screenshot"/>
+<<img width="1065" height="731" alt="Screenshot 2026-03-03 143440" src="https://github.com/user-attachments/assets/2ad69d64-b377-4919-8c88-ceaa539c8153" />
+"/>
 </p>
 
 ---
