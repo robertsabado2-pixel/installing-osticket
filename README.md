@@ -63,7 +63,8 @@ In this lab, I:
 - Verified IIS default webpage loads successfully  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="IIS Installation Screenshot"/>
+<img src="<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/c89bed54-3110-4ff0-a334-42fcab0aec56" />
+" width="80%" alt="IIS Installation Screenshot"/>
 </p>
 
 ---
