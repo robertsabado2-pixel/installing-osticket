@@ -1,20 +1,19 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo"/>
 </p>
 
-<h1>Installing osTicket in Microsoft Azure</h1>
+# Installing osTicket in Microsoft Azure
 
-This project demonstrates deploying the open-source help desk ticketing system <b>osTicket</b> inside a Windows 10 Virtual Machine hosted in Microsoft Azure.  
-
-The lab covers full environment setup, dependency installation, database configuration, IIS configuration, and final web-based deployment.
+This project demonstrates deploying the open-source help desk ticketing system **osTicket** inside a Windows 10 Virtual Machine hosted in Microsoft Azure.  
+Follow the steps below to see exactly how this environment was built and configured.
 
 ---
 
-<h2>🖥️ Environment & Technologies Used</h2>
+## 🖥️ Environment & Technologies Used
 
 - Microsoft Azure (Virtual Machine)
-- Windows 10
-- Remote Desktop (RDP)
+- Windows 10 (21H2)
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS) with CGI
 - PHP Manager for IIS
 - PHP
@@ -25,24 +24,9 @@ The lab covers full environment setup, dependency installation, database configu
 
 ---
 
-<h2>📌 Project Overview</h2>
+## ⚙️ Installation Walkthrough
 
-In this lab, I:
-
-- Created and configured a Windows 10 VM in Azure (CPU, RAM, credentials)
-- Installed and configured IIS web server
-- Installed PHP and required extensions
-- Installed MySQL database server
-- Created an osTicket database using HeidiSQL
-- Configured file permissions and dependencies
-- Completed the osTicket web-based installation
-- Logged into both Admin and User portals
-
----
-
-<h2>⚙️ Installation Walkthrough</h2>
-
-<h3>Step 1: Create Windows 10 Virtual Machine in Azure</h3>
+### Step 1: Create Windows 10 Virtual Machine in Azure
 
 - Deployed a Windows 10 VM in Microsoft Azure  
 - Configured CPU, RAM, networking settings  
@@ -50,43 +34,47 @@ In this lab, I:
 - Connected via Remote Desktop  
 
 <p align="center">
-<img src="<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/7c8673f2-071c-40c2-8130-4b5df4b9df9a" />
-"/>
+<img width="2215" height="1142" alt="Screenshot 2026-03-03 141733" src="https://github.com/user-attachments/assets/1e0b9e5f-4f4b-42f1-b22c-016ee969140c" />
+  
+`screenshots/vm-setup.png`  
 </p>
 
 ---
 
-<h3>Step 2: Install and Configure IIS (Web Server)</h3>
+### Step 2: Install and Configure IIS (Web Server)
 
 - Enabled IIS through Windows Features  
 - Enabled CGI under Application Development Features  
 - Verified IIS default webpage loads successfully  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="IIS Installation Screenshot"/>
+<img width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github.com/user-attachments/assets/66563f65-0885-4b7f-ac57-db65e3d296b5" />
+  
+`screenshots/iis-install.png`  
 </p>
 
 ---
 
-<h3>Step 3: Install PHP & Required Dependencies</h3>
+### Step 3: Install PHP & Required Dependencies
 
 - Installed PHP Manager for IIS  
 - Installed PHP binaries  
 - Installed Microsoft Visual C++ Redistributable  
-- Enabled required PHP extensions:
+- Enabled required PHP extensions:  
   - IMAP  
   - International  
   - OPCache  
-
 - Configured IIS to process PHP files properly  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="PHP Configuration Screenshot"/>
+<img width="1119" height="816" alt="Screenshot 2026-03-03 143043" src="https://github.com/user-attachments/assets/fe964981-3822-469a-8cd3-70b522e0c1ed" />
+  
+`screenshots/php-config.png`  
 </p>
 
 ---
 
-<h3>Step 4: Install and Configure MySQL Database</h3>
+### Step 4: Install and Configure MySQL Database
 
 - Installed MySQL 5.5  
 - Configured database credentials:
@@ -96,35 +84,36 @@ In this lab, I:
 - Created a new database for osTicket  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="MySQL and HeidiSQL Screenshot"/>
+<img width="1065" height="731" alt="Screenshot 2026-03-03 143440" src="https://github.com/user-attachments/assets/e470de99-612a-48e5-a35b-8023e6cc135a" />
+
+`screenshots/mysql-setup.png`  
 </p>
 
 ---
 
-<h3>Step 5: Deploy osTicket</h3>
+### Step 5: Deploy osTicket
 
 - Downloaded and extracted osTicket installation files  
 - Copied files into IIS web root directory  
-- Renamed “upload” folder to “osTicket”  
+- Renamed `upload` folder to `osTicket`  
 - Set proper file permissions for configuration files  
 - Completed web-based installer:
   - Helpdesk name
   - Admin user details
   - Database connection details  
-
-- Successfully logged into:
-  - Admin Portal  
-  - User Portal  
+- Successfully logged into Admin & User portals  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="osTicket Admin Portal Screenshot"/>
+<img width="892" height="700" alt="Screenshot 2026-03-03 143819" src="https://github.com/user-attachments/assets/344da3a8-9e6f-4871-a720-cec21cf75cb5" />
+  
+`screenshots/osticket-admin.png`  
 </p>
 
 ---
 
-<h2>✅ Final Result</h2>
+## ✅ Final Result
 
-Successfully deployed a fully functional osTicket help desk system hosted on a Windows 10 Azure VM, accessible through a web browser.
+Successfully deployed a fully functional osTicket help desk system accessible through a web browser.
 
 This project demonstrates skills in:
 
@@ -137,12 +126,12 @@ This project demonstrates skills in:
 
 ---
 
-<h2>🔐 Skills Demonstrated</h2>
+## 🔐 Skills Demonstrated
 
-- Azure VM provisioning
-- Windows Server configuration
-- IIS management
-- PHP configuration
-- MySQL administration
-- File permission management
+- Azure VM provisioning  
+- Windows Server configuration  
+- IIS management  
+- PHP configuration  
+- MySQL administration  
+- File permission management  
 - Web application deployment
