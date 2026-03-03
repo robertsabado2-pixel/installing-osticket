@@ -80,7 +80,8 @@ width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github
 - Configured IIS to process PHP files properly  
 
 <p align="center">
-<<img width="1119" height="816" alt="Screenshot 2026-03-03 143043" src="https://github.com/user-attachments/assets/d9d068fb-beef-44e2-a33d-fc4f1670c6e3" />
+<<img width="<img width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github.com/user-attachments/assets/810c98f5-f54e-4403-93e1-1782af0d6a60" />
+" />
 />
 </p>
 
