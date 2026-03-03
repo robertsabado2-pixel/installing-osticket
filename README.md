@@ -50,7 +50,8 @@ In this lab, I:
 - Connected via Remote Desktop  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="Azure VM Setup Screenshot"/>
+<img src="<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/fcd36ea5-c543-491f-8ab4-f0efa4835aa7" />
+"/>
 </p>
 
 ---
