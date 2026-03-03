@@ -84,7 +84,8 @@ In this lab, I:
 - Configured IIS to process PHP files properly  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="PHP Configuration Screenshot"/>
+<<img width="1119" height="816" alt="Screenshot 2026-03-03 143043" src="https://github.com/user-attachments/assets/d9d068fb-beef-44e2-a33d-fc4f1670c6e3" />
+/>
 </p>
 
 ---
