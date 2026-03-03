@@ -19,7 +19,6 @@ Follow the steps below to see exactly how this environment was built and configu
 - PHP
 - MySQL 5.5
 - HeidiSQL
-- Microsoft Visual C++ Redistributable
 - osTicket (Open Source Ticketing System)
 
 ---
