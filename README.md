@@ -50,7 +50,8 @@ In this lab, I:
 - Connected via Remote Desktop  
 
 <p align="center">
-<img src="<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/fcd36ea5-c543-491f-8ab4-f0efa4835aa7" />
+<<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/cc6538d2-71fe-4da3-acc5-ac7f570169e3" />
+ />
 "/>
 </p>
 
