@@ -50,7 +50,8 @@ In this lab, I:
 - Connected via Remote Desktop  
 
 <p align="center">
-<<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/cc6538d2-71fe-4da3-acc5-ac7f570169e3" 
+<img src="<img width="1896" height="1149" alt="Screenshot 2026-03-03 141754" src="https://github.com/user-attachments/assets/7c8673f2-071c-40c2-8130-4b5df4b9df9a" />
+"/>
 </p>
 
 ---
@@ -62,7 +63,7 @@ In this lab, I:
 - Verified IIS default webpage loads successfully  
 
 <p align="center">
-width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github.com/user-attachments/assets/36d138fa-cfa0-4ce1-b6cf-69c5ee82edca"
+<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="IIS Installation Screenshot"/>
 </p>
 
 ---
@@ -80,9 +81,7 @@ width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github
 - Configured IIS to process PHP files properly  
 
 <p align="center">
-<<img width="<img width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github.com/user-attachments/assets/810c98f5-f54e-4403-93e1-1782af0d6a60" />
-" />
-/>
+<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="PHP Configuration Screenshot"/>
 </p>
 
 ---
@@ -97,8 +96,7 @@ width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github
 - Created a new database for osTicket  
 
 <p align="center">
-<<img width="1065" height="731" alt="Screenshot 2026-03-03 143440" src="https://github.com/user-attachments/assets/2ad69d64-b377-4919-8c88-ceaa539c8153" />
-"/>
+<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="MySQL and HeidiSQL Screenshot"/>
 </p>
 
 ---
@@ -119,9 +117,7 @@ width="908" height="1027" alt="Screenshot 2026-03-03 142544" src="https://github
   - User Portal  
 
 <p align="center">
-<<img width="892" height="700" alt="Screenshot 2026-03-03 143819" src="https://github.com/user-attachments/assets/311cffd0-5cd4-47ac-98fa-ecd278c07089" />
->
-"/>
+<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="osTicket Admin Portal Screenshot"/>
 </p>
 
 ---
@@ -150,4 +146,3 @@ This project demonstrates skills in:
 - MySQL administration
 - File permission management
 - Web application deployment
-- 
