@@ -122,7 +122,8 @@ In this lab, I:
   - User Portal  
 
 <p align="center">
-<img src="YOUR_SCREENSHOT_LINK_HERE" width="80%" alt="osTicket Admin Portal Screenshot"/>
+<img src="<img width="892" height="700" alt="Screenshot 2026-03-03 143819" src="https://github.com/user-attachments/assets/5195b038-35d1-4845-adca-fbf77f4292b6" />
+"/>
 </p>
 
 ---
